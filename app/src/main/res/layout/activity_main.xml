@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    >
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button android:id="@+id/btn1" />
+        <Button android:id="@+id/btn2" />
+        <Button android:id="@+id/btn3" />
+        <Button android:id="@+id/btn4" />
+        <Button android:id="@+id/btn5" />
+        <Button android:id="@+id/btn6" />
+        <Button android:id="@+id/btn7" />
+        <Button android:id="@+id/btn8" />
+        <Button android:id="@+id/btn9" />
+    </GridLayout>
+
+</LinearLayout>
